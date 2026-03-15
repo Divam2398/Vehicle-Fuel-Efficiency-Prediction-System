@@ -10,7 +10,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("fuel_efficiency_model.pkl")
+model = joblib.load("vehicle_fuel_efficiency.pkl")
 
 st.title("Vehicle Fuel Efficiency Prediction")
 
